@@ -1,0 +1,175 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 20px }
+    .attribution a { color: hsl(228, 45%, 44%); ;}
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+img{
+    float: right;
+    padding-top: 15px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: hsl(234, 12%, 34%);
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+    padding-top: 10px;
+}
+.header{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: hsl(234, 12%, 34%);
+}
+.sub-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: hsl(234, 12%, 34%);
+}
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(229, 6%, 66%);
+}
+.description-box{
+    padding-top: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.card-box{
+    max-width: 70%;
+    max-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.box1{
+    width: 33%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.box2{
+    width: 33%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box3{
+    width: 33%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1{
+    width: 90%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    box-shadow: 0px 4px 15px -3px hsla(212, 64%, 52%, 0.308);
+    box-sizing: border-box;
+    padding:20px 20px 20px 25px;
+}
+
+.card2{
+    width: 90%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    box-shadow: 0px 4px 15px -3px hsla(212, 64%, 52%, 0.308);
+    box-sizing: border-box;
+    padding:20px 20px 20px 25px;
+}
+.card3{
+    width: 90%;
+    height: 200px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    box-shadow: 0px 4px 15px -3px hsla(212, 64%, 52%, 0.308);
+    box-sizing: border-box;
+    padding:20px 20px 20px 25px;
+}
+.card4{
+    width: 90%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    box-shadow: 0px 4px 15px -3px hsla(212, 64%, 52%, 0.308);
+    box-sizing: border-box;
+    padding:20px 20px 20px 25px;
+}
+@media screen and (max-width: 414px){
+    .title{
+        font-size: 25px;
+    }
+    .sub-title{
+        font-size: 25px;
+        padding: 0 ;
+    }    
+    .description-box{
+        width: 340px;
+        text-align: center;
+    }
+    .description {
+        padding: 0;
+    }
+    .card-box{
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .box1{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .box2{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .box3{
+        width: 100%;
+        
+    }
+    .attribution{
+        display: none;
+    }
+    p{
+        padding-right: 20px;
+    }
+}
